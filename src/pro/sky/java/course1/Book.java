@@ -1,3 +1,5 @@
+package pro.sky.java.course1;
+
 public class Book {
     private final String title;
     private final Author author;
