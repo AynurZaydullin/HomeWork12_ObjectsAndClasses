@@ -12,6 +12,7 @@ public class Main {
         book2.setYearOfPublication(2010);
         System.out.println("Измененный год публикации книги Book1 = " + book1.getYearOfPublication());
         System.out.println("Измененный год публикации книги Book2 = " + book2.getYearOfPublication());
-
+        System.out.println(book1.equals(book2));//Выводит в консоли "false", как и должно быть.
+        System.out.println(book1.equals(book1));//Выводит в консоли "true", как и должно быть.
     }
 }
