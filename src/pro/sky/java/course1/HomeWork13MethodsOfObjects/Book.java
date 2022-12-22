@@ -1,7 +1,9 @@
-package pro.sky.java.course1;
+package pro.sky.java.course1.HomeWork13MethodsOfObjects;
 
 public class Book {
     private final String title;
+
+
     private final Author author;
     private int yearOfPublication;
 
@@ -33,4 +35,6 @@ public class Book {
                 author +
                 "Год публикации =" + yearOfPublication + '\n';
     }
+
+
 }

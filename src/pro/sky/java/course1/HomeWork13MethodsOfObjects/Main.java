@@ -1,4 +1,4 @@
-package pro.sky.java.course1;
+package pro.sky.java.course1.HomeWork13MethodsOfObjects;
 
 public class Main {
     public static void main(String[] args) {
@@ -12,7 +12,6 @@ public class Main {
         book2.setYearOfPublication(2010);
         System.out.println("Измененный год публикации книги Book1 = " + book1.getYearOfPublication());
         System.out.println("Измененный год публикации книги Book2 = " + book2.getYearOfPublication());
-
 
     }
 }

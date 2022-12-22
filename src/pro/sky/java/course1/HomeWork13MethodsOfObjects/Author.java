@@ -1,4 +1,6 @@
-package pro.sky.java.course1;
+package pro.sky.java.course1.HomeWork13MethodsOfObjects;
+
+import java.util.Objects;
 
 public class Author {
     private final String name;
@@ -21,4 +23,5 @@ public class Author {
     public String toString() {
         return "Автор = " + name + " " + lastName + '\n';
     }
+
 }
